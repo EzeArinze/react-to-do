@@ -1,3 +1,8 @@
+body {
+  background-color: #282c34;
+  color: #fff;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +31,29 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.btn {
+  font-size: 15px;
+  background-color: #24768d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+}
+
+.textbox {
+  width: 300px;
+  font-size: 15px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+ul {
+  list-style: none;
+  margin-right: 12%;
 }
 
 @keyframes App-logo-spin {
