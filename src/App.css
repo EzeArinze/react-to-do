@@ -53,7 +53,16 @@ body {
 
 ul {
   list-style: none;
-  margin-right: 12%;
+  margin-right: 6%;
+  display: grid;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 @keyframes App-logo-spin {
