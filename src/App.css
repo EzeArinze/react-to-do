@@ -1,36 +1,24 @@
 body {
+  margin: 0;
   background-color: #282c34;
   color: #fff;
+  box-sizing: border-box;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  max-width: 500px;
+  min-height: 500px;
+  margin: 4% auto;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
+h1 {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .btn {
@@ -40,36 +28,41 @@ body {
   border: none;
   border-radius: 5px;
   padding: 5px;
-  margin-left: 5px;
+  margin-left: 6px;
 }
 
 .textbox {
-  width: 300px;
+  width: 400px;
   font-size: 15px;
   border: none;
   padding: 5px;
   border-radius: 5px;
 }
 
-ul {
-  list-style: none;
-  margin-right: 6%;
-  display: grid;
-  gap: 10px;
+.textbox-2 {
+  border: none;
+  /* outline: none; */
+  background-color: #464c58;
+  color: #fff;
+  padding: 5px;
 }
 
-li {
+.list-items {
+  /* width: 100%; */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 5px;
+}
+
+.my-list {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 10px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  border-bottom: 1px solid #fff;
+  padding-bottom: 8px;
+  margin-top: 20px;
 }

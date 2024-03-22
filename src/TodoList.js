@@ -39,7 +39,7 @@ function TodoList() {
   };
 
   return (
-    <div>
+    <div className="main">
       <h1>Todo List</h1>
       <input
         type="text"
@@ -51,33 +51,37 @@ function TodoList() {
       <button className="btn" onClick={handleAddTodo}>
         Add Todo
       </button>
-      <ul>
+      <div className="list-items">
         {todos.map((todo, index) => (
-          <li key={index}>
+          <div className="my-list" key={index}>
             {index === editingIndex ? (
               <input
                 type="text"
                 value={editingValue}
                 onChange={(event) => setEditingValue(event.target.value)}
+                className="textbox-2"
               />
             ) : (
               <span>{todo}</span>
             )}
-            {index === editingIndex ? (
-              <button className="btn" onClick={handleUpdateTodo}>
-                Update
+
+            <div>
+              {index === editingIndex ? (
+                <button className="btn" onClick={handleUpdateTodo}>
+                  Update
+                </button>
+              ) : (
+                <button className="btn" onClick={() => handleEditTodo(index)}>
+                  Edit
+                </button>
+              )}
+              <button className="btn" onClick={() => handleDeleteTodo(index)}>
+                Delete
               </button>
-            ) : (
-              <button className="btn" onClick={() => handleEditTodo(index)}>
-                Edit
-              </button>
-            )}
-            <button className="btn" onClick={() => handleDeleteTodo(index)}>
-              Delete
-            </button>
-          </li>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }
