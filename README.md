@@ -1,12 +1,18 @@
-# Getting Started with Create React App
+# React-To-do-list
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a todo list web application.
 
-## Available Scripts
+## Functionalities used in the app
 
-In the project directory, you can run:
+Ability to Add todo.
+Ability to Edit todo.
+Ability to Update
+Ability to Delete.
 
-### `npm start`
+Add Todo: this will add a todo item
+Edit : When you click "Edit," the todo item becomes editable.
+Update: After editing the todo item update will save the new item you edited.
+Delete: this functionality will remove the save item from the todo
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
