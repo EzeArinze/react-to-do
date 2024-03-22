@@ -1,18 +1,18 @@
 # React-To-do-list
 
-This project is a todo list web application.
+This project is a todo list web application, A to-do list is a simple organizational tool used to keep track of tasks that need to be completed. It typically consists of a list of items or tasks that individuals need to accomplish.
 
 ## Functionalities used in the app
 
-Ability to Add todo.
-Ability to Edit todo.
-Ability to Update
-Ability to Delete.
+- Ability to Add todo.
+- Ability to Edit todo.
+- Ability to Update
+- Ability to Delete.
 
-Add Todo: this will add a todo item
-Edit : When you click "Edit," the todo item becomes editable.
-Update: After editing the todo item update will save the new item you edited.
-Delete: this functionality will remove the save item from the todo
+- Add Todo: this will add a todo item
+- Edit : When you click "Edit," the todo item becomes editable.
+- Update: After editing the todo item update will save the new item you edited.
+- Delete: this functionality will remove the save item from the todo
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
