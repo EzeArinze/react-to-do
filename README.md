@@ -9,10 +9,10 @@ This project is a todo list web application, A to-do list is a simple organizati
 - Ability to Update
 - Ability to Delete.
 
-- Add Todo: this will add a todo item
-- Edit : When you click "Edit," the todo item becomes editable.
-- Update: After editing the todo item update will save the new item you edited.
-- Delete: this functionality will remove the save item from the todo
+Add Todo: this will add a todo item.\
+Edit : When you click "Edit," the todo item becomes editable.\
+Update: After editing the todo item update will save the new item you edited.\
+Delete: this functionality will remove the save item from the todo.\
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
