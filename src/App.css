@@ -11,12 +11,12 @@ body {
 
 .main {
   max-width: 500px;
-  min-height: 500px;
+  min-height: 80vh;
   margin: 4% auto;
   /* added some changes again */
-  background-color: #464c58;
+  background-color: #32363f;
   border-radius: 8px;
-  box-shadow: 0 1px 0 1px #666;
+  box-shadow: 0 1px 0 1px #333;
   padding-top: 8px;
 }
 
@@ -60,7 +60,7 @@ h1 {
   flex-direction: column;
   gap: 10px;
   /* added new padding value*/
-  padding: 8px;
+  padding: 5px 14px;
 }
 
 .my-list {
