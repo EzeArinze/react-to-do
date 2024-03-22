@@ -48,6 +48,7 @@ h1 {
   border: none;
   /* outline: none; */
   /* added new changes on background-color */
+  font-size: 15px;
   background-color: #5d6575;
   color: #fff;
   padding: 5px;
